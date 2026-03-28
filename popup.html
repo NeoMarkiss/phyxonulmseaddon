@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phyxanul Gateway</title>
+    <!-- BEST GUIX: Utilizing Tailwind CSS for a premium, lightweight, dark-mode design (Tubi-style) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            width: 320px;
+            height: 400px;
+            /* Deep, premium dark mode background */
+            background-color: #0f1115; 
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #f59e0b, #ef4444);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center p-6 text-center">
+    
+    <!-- App Logo / Icon Placeholder -->
+    <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-orange-500/20">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+        </svg>
+    </div>
+
+    <h1 class="text-2xl font-bold mb-2 tracking-tight">Phyxanul <span class="gradient-text">Portal</span></h1>
+    <p class="text-sm text-gray-400 mb-8 leading-relaxed">Exclusive video ecosystem. Please verify your membership to unlock access.</p>
+
+    <!-- Interactive UI -->
+    <button id="loginBtn" class="w-full bg-white text-black font-semibold py-3 px-4 rounded-lg hover:bg-gray-200 transition-colors duration-200 flex items-center justify-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M11.4 24H0V0h11.4v24zM12.6 0v24H24V0H12.6z"/>
+        </svg>
+        Verify MS / Patreon
+    </button>
+
+    <div id="loadingUI" class="hidden w-full flex-col items-center mt-4">
+        <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-orange-500 mb-2"></div>
+        <p class="text-xs text-gray-400">Authenticating secure connection...</p>
+    </div>
+
+    <div id="statusMsg" class="mt-4 text-xs hidden"></div>
+
+    <!-- Initialization / Log Footer -->
+    <div class="absolute bottom-4 text-[10px] text-gray-600 font-mono">
+        v0.1.0 | Lab Env Active
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

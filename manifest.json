@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Phyxanul Private Portal Gateway",
+  "version": "0.1.0",
+  "description": "Lab Test v0.1.0: Secure gateway to private video sharing ecosystem. Authenticates via MS/Patreon OAuth.",
+  "permissions": [
+    "identity",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*.phyxanul-domain.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Open Phyxanul Portal"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "oauth2": {
+    "client_id": "YOUR_MS_OR_PATREON_CLIENT_ID_HERE",
+    "scopes": ["openid", "profile", "email"]
+  }
+}
