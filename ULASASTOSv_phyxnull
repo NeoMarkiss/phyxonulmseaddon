@@ -1,0 +1,147 @@
+update 2026, MARCH 29th
+
+# 📘 **SERVICE ACCESS AGREEMENT (SAA)**  
+### *Defines access rights, installation rules, OAuth2 permissions, Patreon gating, and service boundaries.*
+
+## 1. Purpose  
+This Agreement governs access to and use of the Application, including the browser extension, desktop client, and associated online services (“Service”). Access is provided solely to authorized users who meet the eligibility requirements defined herein.
+
+## 2. Eligibility & Access Control  
+- Access is restricted to individuals who have been granted an invitation or who maintain an active membership through an approved third‑party platform (e.g., Patreon).  
+- Access may require authentication through OAuth2, Microsoft account login, or other identity providers.  
+- The Service may verify membership status periodically and may suspend or revoke access if eligibility lapses.
+
+## 3. License Grant  
+Users receive a **non‑exclusive, revocable, non‑transferable** right to access and use the Service for personal or authorized organizational purposes.  
+No ownership rights are transferred.
+
+## 4. Installation & Distribution  
+- The browser extension, desktop client, or domain‑deployed version may be distributed privately.  
+- Users may not redistribute, sublicense, or publicly publish installation files or access links.  
+- Access may be tied to a Microsoft profile toggle or equivalent identity hook.
+
+## 5. OAuth2 Permissions  
+By using the Service, users authorize the application to request and use OAuth2 tokens for:  
+- Identity verification  
+- Membership validation  
+- Content synchronization  
+- Feature activation  
+
+Tokens are used solely for Service functionality.
+
+## 6. Revocation  
+The Service may suspend or terminate access for:  
+- Loss of eligibility  
+- Violation of Platform Conduct Standards  
+- Security concerns  
+- Misuse of OAuth2 credentials  
+
+## 7. Updates  
+The Service may update features, permissions, or access methods without prior notice.
+
+---
+
+# 📗 **DATA USE CHARTER (DUC)**  
+### *Defines data ownership, derived data rights, storage rules, and privacy boundaries.*
+
+## 1. Data Categories  
+The Service may process the following categories of data:  
+- Authentication data (OAuth2 tokens, profile identifiers)  
+- User‑submitted content  
+- Usage metadata  
+- Membership verification data  
+
+## 2. Data Ownership  
+- Users retain ownership of their submitted content.  
+- The Service retains rights to operational metadata required to maintain functionality.  
+- Derived or aggregated data created by the Service is owned by the Service unless explicitly stated otherwise.
+
+## 3. Data Use  
+Data may be used for:  
+- Feature operation  
+- Membership validation  
+- Security and fraud prevention  
+- Performance optimization  
+
+Data is **not** sold or shared with third parties except as required for authentication or hosting.
+
+## 4. Storage & Retention  
+- Tokens are stored securely using platform‑appropriate encrypted storage.  
+- Data is retained only as long as necessary for Service operation.  
+- Users may request deletion of their content where technically feasible.
+
+## 5. Third‑Party Services  
+The Service may interact with identity providers (e.g., Microsoft, Patreon).  
+Their respective privacy policies apply to their handling of user data.
+
+---
+
+# 📙 **PLATFORM CONDUCT STANDARDS (PCS)**  
+### *Defines acceptable behavior, prohibited actions, and enforcement rules.*
+
+## 1. Expected Conduct  
+Users must:  
+- Use the Service responsibly  
+- Protect their authentication credentials  
+- Respect intellectual property rights  
+- Follow all applicable laws  
+
+## 2. Prohibited Conduct  
+Users may not:  
+- Circumvent Patreon or membership gating  
+- Share installation files or private access links  
+- Attempt to reverse engineer or modify the Service  
+- Use the Service to distribute harmful, illegal, or abusive content  
+- Interfere with security mechanisms  
+- Automate access in unauthorized ways  
+
+## 3. Enforcement  
+Violations may result in:  
+- Temporary suspension  
+- Permanent revocation  
+- Removal of content  
+- Reporting to relevant platforms (e.g., Patreon, Microsoft)  
+
+## 4. Reporting  
+Users may report misuse or security concerns through designated channels.
+
+---
+
+# 📕 **SECURITY & LIABILITY STATEMENT (SLS)**  
+### *Defines warranties, liability limits, and security expectations.*
+
+## 1. Security Practices  
+The Service uses reasonable technical measures to protect data, including:  
+- Encrypted token storage  
+- Secure communication protocols  
+- Access‑controlled distribution  
+
+No system can guarantee absolute security.
+
+## 2. User Responsibilities  
+Users must:  
+- Maintain secure passwords and accounts  
+- Avoid sharing credentials  
+- Install updates promptly  
+- Use supported platforms  
+
+## 3. Warranty Disclaimer  
+The Service is provided **“as is”** without warranties of any kind, including:  
+- Fitness for a particular purpose  
+- Availability  
+- Accuracy  
+- Non‑infringement  
+
+## 4. Limitation of Liability  
+To the maximum extent permitted by law:  
+- The Service is not liable for indirect, incidental, or consequential damages.  
+- Total liability is limited to the amount paid for access during the preceding 12 months (or $0 for free access).  
+
+## 5. Indemnification  
+Users agree to indemnify the Service against claims arising from misuse or violation of these terms.
+
+## 6. Governing Law  
+Disputes are governed by the jurisdiction specified by the Service operator.
+
+---
+fin
